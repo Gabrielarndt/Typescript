@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.book-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.book-list p {
+    margin: 5px 0;
+}
+
+.section-title {
+    margin-top: 0;
+}
+
+.form-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 5px;
+    font-size: 14px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

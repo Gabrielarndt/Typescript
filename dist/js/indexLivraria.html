@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Library</h1>
+
+        <div class="book-list" id="bookList">
+            <!-- Os livros serão exibidos aqui -->
+        </div>
+
+        <div class="form-container">
+            <h2 class="section-title">Adicionar Livro</h2>
+            <form id="addBookForm">
+                <input type="text" id="titleInput" placeholder="Título" required>
+                <input type="text" id="authorInput" placeholder="Autor" required>
+                <input type="text" id="genreInput" placeholder="Gênero" required>
+                <input type="number" id="quantityInput" placeholder="Quantidade Disponível" required>
+                <button type="submit">Adicionar Livro</button>
+            </form>
+
+            <h2 class="section-title">Buscar Livros</h2>
+            <form id="searchBooksForm">
+                <input type="text" id="searchValueInput" placeholder="Valor de busca" required>
+                <select id="searchFieldSelect" required>
+                    <option value="title">Título</option>
+                    <option value="author">Autor</option>
+                </select>
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="livrariaUP.js"></script>
+    <script>
+        // Seu código TypeScript para interagir com a página
+    </script>
+</body>
+</html>
